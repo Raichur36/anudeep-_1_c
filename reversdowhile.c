@@ -5,6 +5,6 @@ int main(){
     printf("%d\n",i);
     i++;
   }while(i<=10);
-  printf("Darshan.M");
+  printf("Anudeep");
   return 0;
 }
