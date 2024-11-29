@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    char ch = 'A';
+    char *ptr = &ch;
+
+    printf("Value of ch: %c\n", ch);
+    printf("Address of ch: %p\n", &ch);
+    printf("Value stored at ptr: %c\n", *ptr);
+    printf("Address stored in ptr: %p\n", ptr);
+
+    return 0;
+}
