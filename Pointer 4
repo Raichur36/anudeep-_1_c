@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+struct Student {
+    int roll_no;
+    char name[50];
+};
+
+int main() {
+    struct Student student = {1, "Anudeep"};
+    struct Student *ptr = &student;
+
+    printf("Roll Number: %d\n", ptr->roll_no);
+    printf("Name: %s\n", ptr->name);
+
+    return 0;
+}
